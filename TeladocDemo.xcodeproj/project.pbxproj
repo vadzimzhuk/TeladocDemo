@@ -7,15 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D4E4FB92A3F9C6A004CA3D4 /* WordListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4E4FB82A3F9C6A004CA3D4 /* WordListViewModel.swift */; };
+		0D4E4FBC2A3FA176004CA3D4 /* DIContainer in Frameworks */ = {isa = PBXBuildFile; productRef = 0D4E4FBB2A3FA176004CA3D4 /* DIContainer */; };
+		0D4E4FBE2A3FA19A004CA3D4 /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4E4FBD2A3FA19A004CA3D4 /* Dependencies.swift */; };
+		0D4E4FC22A3FAC72004CA3D4 /* ApplicationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4E4FC12A3FAC72004CA3D4 /* ApplicationError.swift */; };
+		0DAA9CD22A3EEF2300AB7F5A /* String+Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAA9CD12A3EEF2200AB7F5A /* String+Words.swift */; };
 		0DDDD78D2A3DC85600CC0F12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDDD78C2A3DC85600CC0F12 /* AppDelegate.swift */; };
 		0DDDD78F2A3DC85600CC0F12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDDD78E2A3DC85600CC0F12 /* SceneDelegate.swift */; };
 		0DDDD7912A3DC85600CC0F12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDDD7902A3DC85600CC0F12 /* ViewController.swift */; };
 		0DDDD7942A3DC85600CC0F12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DDDD7922A3DC85600CC0F12 /* Main.storyboard */; };
 		0DDDD7962A3DC85800CC0F12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DDDD7952A3DC85800CC0F12 /* Assets.xcassets */; };
 		0DDDD7992A3DC85800CC0F12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DDDD7972A3DC85800CC0F12 /* LaunchScreen.storyboard */; };
+		0DDDD7A22A3DD34A00CC0F12 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDDD7A12A3DD34A00CC0F12 /* DataProvider.swift */; };
+		0DDDD7A42A3DD47E00CC0F12 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDDD7A32A3DD47E00CC0F12 /* StorageService.swift */; };
+		0DDDD7A82A3DECAB00CC0F12 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDDD7A72A3DECAB00CC0F12 /* Coordinator.swift */; };
+		0DDDD7AB2A3DF32B00CC0F12 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDDD7AA2A3DF32B00CC0F12 /* AppCoordinator.swift */; };
+		0DDDD7AD2A3DF57000CC0F12 /* MainFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDDD7AC2A3DF57000CC0F12 /* MainFlowCoordinator.swift */; };
+		0DDDD7B02A3DF63B00CC0F12 /* WordListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDDD7AF2A3DF63B00CC0F12 /* WordListViewController.swift */; };
+		0DDDD7B22A3DF89500CC0F12 /* WordListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDDD7B12A3DF89500CC0F12 /* WordListModel.swift */; };
+		0DDDD7B42A3E03F700CC0F12 /* DefaultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDDD7B32A3E03F700CC0F12 /* DefaultTableViewCell.swift */; };
+		0DDDD7B62A3E0B6300CC0F12 /* SortingMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDDD7B52A3E0B6300CC0F12 /* SortingMethod.swift */; };
+		0DDDD7B82A3E20AD00CC0F12 /* Romeo-and-Juliet.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0DDDD7B72A3E20AD00CC0F12 /* Romeo-and-Juliet.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D4E4FB82A3F9C6A004CA3D4 /* WordListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListViewModel.swift; sourceTree = "<group>"; };
+		0D4E4FBD2A3FA19A004CA3D4 /* Dependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependencies.swift; sourceTree = "<group>"; };
+		0D4E4FC12A3FAC72004CA3D4 /* ApplicationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationError.swift; sourceTree = "<group>"; };
+		0DAA9CD12A3EEF2200AB7F5A /* String+Words.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Words.swift"; sourceTree = "<group>"; };
 		0DDDD7892A3DC85600CC0F12 /* TeladocDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeladocDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DDDD78C2A3DC85600CC0F12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DDDD78E2A3DC85600CC0F12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +43,16 @@
 		0DDDD7952A3DC85800CC0F12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DDDD7982A3DC85800CC0F12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DDDD79A2A3DC85800CC0F12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DDDD7A12A3DD34A00CC0F12 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		0DDDD7A32A3DD47E00CC0F12 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		0DDDD7A72A3DECAB00CC0F12 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		0DDDD7AA2A3DF32B00CC0F12 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		0DDDD7AC2A3DF57000CC0F12 /* MainFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFlowCoordinator.swift; sourceTree = "<group>"; };
+		0DDDD7AF2A3DF63B00CC0F12 /* WordListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListViewController.swift; sourceTree = "<group>"; };
+		0DDDD7B12A3DF89500CC0F12 /* WordListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListModel.swift; sourceTree = "<group>"; };
+		0DDDD7B32A3E03F700CC0F12 /* DefaultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTableViewCell.swift; sourceTree = "<group>"; };
+		0DDDD7B52A3E0B6300CC0F12 /* SortingMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingMethod.swift; sourceTree = "<group>"; };
+		0DDDD7B72A3E20AD00CC0F12 /* Romeo-and-Juliet.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Romeo-and-Juliet.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +60,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D4E4FBC2A3FA176004CA3D4 /* DIContainer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D4E4FC02A3FAC5C004CA3D4 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				0D4E4FC12A3FAC72004CA3D4 /* ApplicationError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
 		0DDDD7802A3DC85600CC0F12 = {
 			isa = PBXGroup;
 			children = (
@@ -56,7 +94,12 @@
 		0DDDD78B2A3DC85600CC0F12 /* TeladocDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0D4E4FC02A3FAC5C004CA3D4 /* Errors */,
 				0DDDD78C2A3DC85600CC0F12 /* AppDelegate.swift */,
+				0DDDD7B72A3E20AD00CC0F12 /* Romeo-and-Juliet.txt */,
+				0DDDD7AE2A3DF5CF00CC0F12 /* UserInterface */,
+				0DDDD7A92A3DF31600CC0F12 /* Coordinators */,
+				0DDDD7A02A3DD31900CC0F12 /* Services */,
 				0DDDD78E2A3DC85600CC0F12 /* SceneDelegate.swift */,
 				0DDDD7902A3DC85600CC0F12 /* ViewController.swift */,
 				0DDDD7922A3DC85600CC0F12 /* Main.storyboard */,
@@ -65,6 +108,39 @@
 				0DDDD79A2A3DC85800CC0F12 /* Info.plist */,
 			);
 			path = TeladocDemo;
+			sourceTree = "<group>";
+		};
+		0DDDD7A02A3DD31900CC0F12 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0DDDD7A12A3DD34A00CC0F12 /* DataProvider.swift */,
+				0DDDD7A32A3DD47E00CC0F12 /* StorageService.swift */,
+				0DDDD7B52A3E0B6300CC0F12 /* SortingMethod.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		0DDDD7A92A3DF31600CC0F12 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				0D4E4FBD2A3FA19A004CA3D4 /* Dependencies.swift */,
+				0DDDD7A72A3DECAB00CC0F12 /* Coordinator.swift */,
+				0DDDD7AA2A3DF32B00CC0F12 /* AppCoordinator.swift */,
+				0DDDD7AC2A3DF57000CC0F12 /* MainFlowCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		0DDDD7AE2A3DF5CF00CC0F12 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				0DDDD7AF2A3DF63B00CC0F12 /* WordListViewController.swift */,
+				0DDDD7B12A3DF89500CC0F12 /* WordListModel.swift */,
+				0D4E4FB82A3F9C6A004CA3D4 /* WordListViewModel.swift */,
+				0DDDD7B32A3E03F700CC0F12 /* DefaultTableViewCell.swift */,
+				0DAA9CD12A3EEF2200AB7F5A /* String+Words.swift */,
+			);
+			path = UserInterface;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,12 +153,16 @@
 				0DDDD7852A3DC85600CC0F12 /* Sources */,
 				0DDDD7862A3DC85600CC0F12 /* Frameworks */,
 				0DDDD7872A3DC85600CC0F12 /* Resources */,
+				0D4E4FBF2A3FA8A9004CA3D4 /* Swiftlint */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = TeladocDemo;
+			packageProductDependencies = (
+				0D4E4FBB2A3FA176004CA3D4 /* DIContainer */,
+			);
 			productName = TeladocDemo;
 			productReference = 0DDDD7892A3DC85600CC0F12 /* TeladocDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +191,9 @@
 				Base,
 			);
 			mainGroup = 0DDDD7802A3DC85600CC0F12;
+			packageReferences = (
+				0D4E4FBA2A3FA176004CA3D4 /* XCRemoteSwiftPackageReference "DIContainer" */,
+			);
 			productRefGroup = 0DDDD78A2A3DC85600CC0F12 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,20 +210,55 @@
 			files = (
 				0DDDD7992A3DC85800CC0F12 /* LaunchScreen.storyboard in Resources */,
 				0DDDD7962A3DC85800CC0F12 /* Assets.xcassets in Resources */,
+				0DDDD7B82A3E20AD00CC0F12 /* Romeo-and-Juliet.txt in Resources */,
 				0DDDD7942A3DC85600CC0F12 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D4E4FBF2A3FA8A9004CA3D4 /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0DDDD7852A3DC85600CC0F12 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DDDD7B22A3DF89500CC0F12 /* WordListModel.swift in Sources */,
 				0DDDD7912A3DC85600CC0F12 /* ViewController.swift in Sources */,
 				0DDDD78D2A3DC85600CC0F12 /* AppDelegate.swift in Sources */,
+				0D4E4FBE2A3FA19A004CA3D4 /* Dependencies.swift in Sources */,
+				0DAA9CD22A3EEF2300AB7F5A /* String+Words.swift in Sources */,
+				0D4E4FB92A3F9C6A004CA3D4 /* WordListViewModel.swift in Sources */,
+				0DDDD7B02A3DF63B00CC0F12 /* WordListViewController.swift in Sources */,
+				0DDDD7A82A3DECAB00CC0F12 /* Coordinator.swift in Sources */,
+				0DDDD7B62A3E0B6300CC0F12 /* SortingMethod.swift in Sources */,
+				0DDDD7A22A3DD34A00CC0F12 /* DataProvider.swift in Sources */,
+				0DDDD7B42A3E03F700CC0F12 /* DefaultTableViewCell.swift in Sources */,
 				0DDDD78F2A3DC85600CC0F12 /* SceneDelegate.swift in Sources */,
+				0DDDD7AD2A3DF57000CC0F12 /* MainFlowCoordinator.swift in Sources */,
+				0DDDD7A42A3DD47E00CC0F12 /* StorageService.swift in Sources */,
+				0DDDD7AB2A3DF32B00CC0F12 /* AppCoordinator.swift in Sources */,
+				0D4E4FC22A3FAC72004CA3D4 /* ApplicationError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,8 +409,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TeladocDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -319,8 +437,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TeladocDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +476,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0D4E4FBA2A3FA176004CA3D4 /* XCRemoteSwiftPackageReference "DIContainer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Tavernari/DIContainer";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0D4E4FBB2A3FA176004CA3D4 /* DIContainer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0D4E4FBA2A3FA176004CA3D4 /* XCRemoteSwiftPackageReference "DIContainer" */;
+			productName = DIContainer;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0DDDD7812A3DC85600CC0F12 /* Project object */;
 }
