@@ -14,8 +14,6 @@
 		0DAA9CD22A3EEF2300AB7F5A /* String+Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAA9CD12A3EEF2200AB7F5A /* String+Words.swift */; };
 		0DDDD78D2A3DC85600CC0F12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDDD78C2A3DC85600CC0F12 /* AppDelegate.swift */; };
 		0DDDD78F2A3DC85600CC0F12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDDD78E2A3DC85600CC0F12 /* SceneDelegate.swift */; };
-		0DDDD7912A3DC85600CC0F12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDDD7902A3DC85600CC0F12 /* ViewController.swift */; };
-		0DDDD7942A3DC85600CC0F12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DDDD7922A3DC85600CC0F12 /* Main.storyboard */; };
 		0DDDD7962A3DC85800CC0F12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DDDD7952A3DC85800CC0F12 /* Assets.xcassets */; };
 		0DDDD7992A3DC85800CC0F12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DDDD7972A3DC85800CC0F12 /* LaunchScreen.storyboard */; };
 		0DDDD7A22A3DD34A00CC0F12 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDDD7A12A3DD34A00CC0F12 /* DataProvider.swift */; };
@@ -38,8 +36,6 @@
 		0DDDD7892A3DC85600CC0F12 /* TeladocDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeladocDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DDDD78C2A3DC85600CC0F12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DDDD78E2A3DC85600CC0F12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0DDDD7902A3DC85600CC0F12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0DDDD7932A3DC85600CC0F12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0DDDD7952A3DC85800CC0F12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DDDD7982A3DC85800CC0F12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DDDD79A2A3DC85800CC0F12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -75,6 +71,32 @@
 			path = Errors;
 			sourceTree = "<group>";
 		};
+		0D7035692A408454005C1B67 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0DAA9CD12A3EEF2200AB7F5A /* String+Words.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0D70356A2A40846B005C1B67 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0DDDD7B72A3E20AD00CC0F12 /* Romeo-and-Juliet.txt */,
+				0DDDD7952A3DC85800CC0F12 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0D70356B2A40856A005C1B67 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				0DDDD78C2A3DC85600CC0F12 /* AppDelegate.swift */,
+				0DDDD78E2A3DC85600CC0F12 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
 		0DDDD7802A3DC85600CC0F12 = {
 			isa = PBXGroup;
 			children = (
@@ -94,18 +116,14 @@
 		0DDDD78B2A3DC85600CC0F12 /* TeladocDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0DDDD79A2A3DC85800CC0F12 /* Info.plist */,
+				0D70356B2A40856A005C1B67 /* Application */,
+				0D70356A2A40846B005C1B67 /* Resources */,
+				0D7035692A408454005C1B67 /* Extensions */,
 				0D4E4FC02A3FAC5C004CA3D4 /* Errors */,
-				0DDDD78C2A3DC85600CC0F12 /* AppDelegate.swift */,
-				0DDDD7B72A3E20AD00CC0F12 /* Romeo-and-Juliet.txt */,
 				0DDDD7AE2A3DF5CF00CC0F12 /* UserInterface */,
 				0DDDD7A92A3DF31600CC0F12 /* Coordinators */,
 				0DDDD7A02A3DD31900CC0F12 /* Services */,
-				0DDDD78E2A3DC85600CC0F12 /* SceneDelegate.swift */,
-				0DDDD7902A3DC85600CC0F12 /* ViewController.swift */,
-				0DDDD7922A3DC85600CC0F12 /* Main.storyboard */,
-				0DDDD7952A3DC85800CC0F12 /* Assets.xcassets */,
-				0DDDD7972A3DC85800CC0F12 /* LaunchScreen.storyboard */,
-				0DDDD79A2A3DC85800CC0F12 /* Info.plist */,
 			);
 			path = TeladocDemo;
 			sourceTree = "<group>";
@@ -134,11 +152,11 @@
 		0DDDD7AE2A3DF5CF00CC0F12 /* UserInterface */ = {
 			isa = PBXGroup;
 			children = (
+				0DDDD7972A3DC85800CC0F12 /* LaunchScreen.storyboard */,
 				0DDDD7AF2A3DF63B00CC0F12 /* WordListViewController.swift */,
 				0DDDD7B12A3DF89500CC0F12 /* WordListModel.swift */,
 				0D4E4FB82A3F9C6A004CA3D4 /* WordListViewModel.swift */,
 				0DDDD7B32A3E03F700CC0F12 /* DefaultTableViewCell.swift */,
-				0DAA9CD12A3EEF2200AB7F5A /* String+Words.swift */,
 			);
 			path = UserInterface;
 			sourceTree = "<group>";
@@ -211,7 +229,6 @@
 				0DDDD7992A3DC85800CC0F12 /* LaunchScreen.storyboard in Resources */,
 				0DDDD7962A3DC85800CC0F12 /* Assets.xcassets in Resources */,
 				0DDDD7B82A3E20AD00CC0F12 /* Romeo-and-Juliet.txt in Resources */,
-				0DDDD7942A3DC85600CC0F12 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,7 +261,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DDDD7B22A3DF89500CC0F12 /* WordListModel.swift in Sources */,
-				0DDDD7912A3DC85600CC0F12 /* ViewController.swift in Sources */,
 				0DDDD78D2A3DC85600CC0F12 /* AppDelegate.swift in Sources */,
 				0D4E4FBE2A3FA19A004CA3D4 /* Dependencies.swift in Sources */,
 				0DAA9CD22A3EEF2300AB7F5A /* String+Words.swift in Sources */,
@@ -265,14 +281,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0DDDD7922A3DC85600CC0F12 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0DDDD7932A3DC85600CC0F12 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0DDDD7972A3DC85800CC0F12 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
