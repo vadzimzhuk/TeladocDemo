@@ -16,11 +16,13 @@ class MusicAlbumsListModel: NSObject, MusicAlbumsListViewModel {
     @Published private var tableData: [AlbumCellData] = []
     @Published private var isLoading: Bool = false
     @Published var error: ApplicationError = .none
+    var searchTerm: String = "thebeatles"
 
     var errorPublisher: Published<ApplicationError>.Publisher { $error }
     var tableDataPublisher: Published<[AlbumCellData]>.Publisher { $tableData }
     var isLoadingPublisher: Published<Bool>.Publisher { $isLoading }
 
+    private var searchRequestSubscription: AnyCancellable?
     private var disposeBag = Set<AnyCancellable>()
 
     init(dataProvider: DataProviderService,
@@ -28,24 +30,30 @@ class MusicAlbumsListModel: NSObject, MusicAlbumsListViewModel {
         self.dataProvider = dataProvider
         super.init()
 
-        loadData()
+        loadData(searchTerm: searchTerm)
     }
 
-    private func loadData() {
+    private func loadData(searchTerm: String) {
+        searchRequestSubscription?.cancel()
+        
         isLoading = true
 
-        dataProvider.getAlbums(for: "thebeatles")
+        searchRequestSubscription = dataProvider.getAlbums(for: searchTerm)
             .receive(on: DispatchQueue.main)
             .sink { [weak self] _ in
                 self?.isLoading = false
             } receiveValue: { [weak self] result in
                 self?.tableData = result.results
             }
-            .store(in: &disposeBag)
+//            .store(in: &disposeBag)
     }
 
     func registerCellsFor(tableView: UITableView) {
         tableView.register(MusicAlbumTableViewCell.self, forCellReuseIdentifier: MusicAlbumTableViewCell.reuseIdentifier)
+    }
+
+    func search(term: String) {
+        loadData(searchTerm: term)
     }
 }
 

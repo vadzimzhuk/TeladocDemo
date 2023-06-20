@@ -19,6 +19,23 @@ class MusicAlbumsListViewController: UIViewController {
         }
     }
 
+    private var searchTextField: UITextField = {
+        let textField = UITextField()
+        textField.backgroundColor = .white
+        return textField
+    }()
+
+    private var searchButton: UIButton = {
+        let button = UIButton()
+        button.setTitleColor(.black, for: .normal)
+        button.setTitle("Search", for: .normal)
+        button.setImage(UIImage(systemName: "magnifier"), for: .normal)
+        button.tintColor = .black
+        button.contentEdgeInsets = UIEdgeInsets(top: 5, left: 5, bottom: 5, right: 5)
+        button.addTarget(self, action: #selector(searchButtonTapped), for: .touchUpInside)
+        return button
+    }()
+
     private lazy var tableView: UITableView = {
         let tableView = UITableView()
         tableView.dataSource = model
@@ -91,11 +108,26 @@ class MusicAlbumsListViewController: UIViewController {
     }
 
     private func setupSubviews() {
+        view.addSubview(searchTextField)
+        view.addSubview(searchButton)
         view.addSubview(tableView)
+        setupSearchViews()
         setupTableView()
 
         tableView.addSubview(progressIndicatorView)
         setupProgressIndicatorView()
+    }
+
+    private func setupSearchViews() {
+        searchTextField.translatesAutoresizingMaskIntoConstraints = false
+        searchButton.translatesAutoresizingMaskIntoConstraints = false
+
+        searchTextField.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 10).isActive = true
+        searchTextField.bottomAnchor.constraint(equalTo: tableView.topAnchor, constant: -5).isActive = true
+        searchTextField.trailingAnchor.constraint(equalTo: searchButton.leadingAnchor, constant: -15).isActive = true
+        searchButton.bottomAnchor.constraint(equalTo: searchTextField.bottomAnchor, constant: 5).isActive = true
+        searchButton.topAnchor.constraint(equalTo: searchTextField.topAnchor).isActive = true
+        searchButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -25).isActive = true
     }
 
     private func setupTableView() {
@@ -113,5 +145,12 @@ class MusicAlbumsListViewController: UIViewController {
         progressIndicatorView.heightAnchor.constraint(equalToConstant: 25).isActive = true
         progressIndicatorView.centerXAnchor.constraint(equalTo: tableView.centerXAnchor).isActive = true
         progressIndicatorView.centerYAnchor.constraint(equalTo: tableView.centerYAnchor).isActive = true
+    }
+
+    @objc
+    func searchButtonTapped() {
+        guard let searchTerm = searchTextField.text,
+              !searchTerm.isEmpty else { return }
+        model.search(term: searchTerm)
     }
 }

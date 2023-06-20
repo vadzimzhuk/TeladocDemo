@@ -16,4 +16,5 @@ protocol MusicAlbumsListViewModel: UITableViewDataSource, TrackableLoading {
     var errorPublisher: Published<ApplicationError>.Publisher { get }
 
     func registerCellsFor(tableView: UITableView)
+    func search(term: String)
 }

@@ -37,7 +37,6 @@
 		0DF414AC2A4182E200B69785 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDDD7AA2A3DF32B00CC0F12 /* AppCoordinator.swift */; };
 		0DF414AD2A4182E200B69785 /* ApplicationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4E4FC12A3FAC72004CA3D4 /* ApplicationError.swift */; };
 		0DF414AF2A4182E200B69785 /* DIContainer in Frameworks */ = {isa = PBXBuildFile; productRef = 0DF4149C2A4182E200B69785 /* DIContainer */; };
-		0DF414B12A4182E200B69785 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DDDD7972A3DC85800CC0F12 /* LaunchScreen.storyboard */; };
 		0DF414B22A4182E200B69785 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DDDD7952A3DC85800CC0F12 /* Assets.xcassets */; };
 		0DF414B32A4182E200B69785 /* Romeo-and-Juliet.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0DDDD7B72A3E20AD00CC0F12 /* Romeo-and-Juliet.txt */; };
 		0DF414C12A41913600B69785 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF414C02A41913600B69785 /* NetworkService.swift */; };
@@ -60,6 +59,7 @@
 		0DF414ED2A419E7C00B69785 /* MusicAlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF414E02A419E0100B69785 /* MusicAlbumTableViewCell.swift */; };
 		0DF414EE2A41A68300B69785 /* MainFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF414922A41821400B69785 /* MainFlowCoordinator.swift */; };
 		0DF414F02A41B77600B69785 /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DF414EF2A41B77600B69785 /* sample.json */; };
+		0DF414F52A424A5E00B69785 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DF414F32A424A5200B69785 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +98,7 @@
 		0DF414E02A419E0100B69785 /* MusicAlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAlbumTableViewCell.swift; sourceTree = "<group>"; };
 		0DF414E12A419E0100B69785 /* MusicAlbumsListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAlbumsListModel.swift; sourceTree = "<group>"; };
 		0DF414EF2A41B77600B69785 /* sample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
+		0DF414F42A424A5200B69785 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,7 +215,8 @@
 		0DDDD7AE2A3DF5CF00CC0F12 /* UserInterface */ = {
 			isa = PBXGroup;
 			children = (
-				0DDDD7972A3DC85800CC0F12 /* LaunchScreen.storyboard */,
+				0DF414F22A424A4100B69785 /* Q2 */,
+				0DF414F12A424A2900B69785 /* Q1 */,
 				0DF414D92A419E0000B69785 /* MusicAlbumsList */,
 				0DF414D82A419DE700B69785 /* WordList */,
 			);
@@ -271,6 +273,22 @@
 				0DF414DF2A419E0100B69785 /* MusicAlbumsListViewModel.swift */,
 			);
 			path = MusicAlbumsList;
+			sourceTree = "<group>";
+		};
+		0DF414F12A424A2900B69785 /* Q1 */ = {
+			isa = PBXGroup;
+			children = (
+				0DDDD7972A3DC85800CC0F12 /* LaunchScreen.storyboard */,
+			);
+			path = Q1;
+			sourceTree = "<group>";
+		};
+		0DF414F22A424A4100B69785 /* Q2 */ = {
+			isa = PBXGroup;
+			children = (
+				0DF414F32A424A5200B69785 /* LaunchScreen.storyboard */,
+			);
+			path = Q2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -370,9 +388,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DF414B12A4182E200B69785 /* LaunchScreen.storyboard in Resources */,
 				0DF414F02A41B77600B69785 /* sample.json in Resources */,
 				0DF414B22A4182E200B69785 /* Assets.xcassets in Resources */,
+				0DF414F52A424A5E00B69785 /* LaunchScreen.storyboard in Resources */,
 				0DF414B32A4182E200B69785 /* Romeo-and-Juliet.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +502,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				0DDDD7982A3DC85800CC0F12 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0DF414F32A424A5200B69785 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DF414F42A424A5200B69785 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
