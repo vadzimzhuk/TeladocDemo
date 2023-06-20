@@ -22,16 +22,10 @@ final class FileStorage {
 
 extension FileStorage: StorageService {
     func getSourceText() async throws -> String {
-//        do {
-            guard let url = Bundle.main.url(forResource: fileName, withExtension: fileNameExtension) else {
-                throw ApplicationError.fileNotFound
-            }
-            let text = try String(contentsOf: url, encoding: .utf8)
-            return text
-//        } catch {
-//            // TODO: - handle error
-//            assertionFailure()
-//            return ""
-//        }
+        guard let url = Bundle.main.url(forResource: fileName, withExtension: fileNameExtension) else {
+            throw ApplicationError.fileNotFound
+        }
+        let text = try String(contentsOf: url, encoding: .utf8)
+        return text
     }
 }
