@@ -20,12 +20,46 @@
 		0DDDD7A42A3DD47E00CC0F12 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDDD7A32A3DD47E00CC0F12 /* StorageService.swift */; };
 		0DDDD7A82A3DECAB00CC0F12 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDDD7A72A3DECAB00CC0F12 /* Coordinator.swift */; };
 		0DDDD7AB2A3DF32B00CC0F12 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDDD7AA2A3DF32B00CC0F12 /* AppCoordinator.swift */; };
-		0DDDD7AD2A3DF57000CC0F12 /* MainFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDDD7AC2A3DF57000CC0F12 /* MainFlowCoordinator.swift */; };
 		0DDDD7B02A3DF63B00CC0F12 /* WordListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDDD7AF2A3DF63B00CC0F12 /* WordListViewController.swift */; };
 		0DDDD7B22A3DF89500CC0F12 /* WordListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDDD7B12A3DF89500CC0F12 /* WordListModel.swift */; };
 		0DDDD7B42A3E03F700CC0F12 /* DefaultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDDD7B32A3E03F700CC0F12 /* DefaultTableViewCell.swift */; };
 		0DDDD7B62A3E0B6300CC0F12 /* SortingMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDDD7B52A3E0B6300CC0F12 /* SortingMethod.swift */; };
 		0DDDD7B82A3E20AD00CC0F12 /* Romeo-and-Juliet.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0DDDD7B72A3E20AD00CC0F12 /* Romeo-and-Juliet.txt */; };
+		0DF414972A41824800B69785 /* MainFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF414912A41821400B69785 /* MainFlowCoordinator.swift */; };
+		0DF414A02A4182E200B69785 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDDD78C2A3DC85600CC0F12 /* AppDelegate.swift */; };
+		0DF414A12A4182E200B69785 /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4E4FBD2A3FA19A004CA3D4 /* Dependencies.swift */; };
+		0DF414A22A4182E200B69785 /* String+Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAA9CD12A3EEF2200AB7F5A /* String+Words.swift */; };
+		0DF414A62A4182E200B69785 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDDD7A72A3DECAB00CC0F12 /* Coordinator.swift */; };
+		0DF414A72A4182E200B69785 /* SortingMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDDD7B52A3E0B6300CC0F12 /* SortingMethod.swift */; };
+		0DF414A82A4182E200B69785 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDDD7A12A3DD34A00CC0F12 /* DataProvider.swift */; };
+		0DF414AA2A4182E200B69785 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDDD78E2A3DC85600CC0F12 /* SceneDelegate.swift */; };
+		0DF414AB2A4182E200B69785 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDDD7A32A3DD47E00CC0F12 /* StorageService.swift */; };
+		0DF414AC2A4182E200B69785 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDDD7AA2A3DF32B00CC0F12 /* AppCoordinator.swift */; };
+		0DF414AD2A4182E200B69785 /* ApplicationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4E4FC12A3FAC72004CA3D4 /* ApplicationError.swift */; };
+		0DF414AF2A4182E200B69785 /* DIContainer in Frameworks */ = {isa = PBXBuildFile; productRef = 0DF4149C2A4182E200B69785 /* DIContainer */; };
+		0DF414B12A4182E200B69785 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DDDD7972A3DC85800CC0F12 /* LaunchScreen.storyboard */; };
+		0DF414B22A4182E200B69785 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DDDD7952A3DC85800CC0F12 /* Assets.xcassets */; };
+		0DF414B32A4182E200B69785 /* Romeo-and-Juliet.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0DDDD7B72A3E20AD00CC0F12 /* Romeo-and-Juliet.txt */; };
+		0DF414C12A41913600B69785 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF414C02A41913600B69785 /* NetworkService.swift */; };
+		0DF414C22A41913600B69785 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF414C02A41913600B69785 /* NetworkService.swift */; };
+		0DF414C42A4191A000B69785 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF414C32A4191A000B69785 /* API.swift */; };
+		0DF414C52A4191A000B69785 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF414C32A4191A000B69785 /* API.swift */; };
+		0DF414CC2A41929E00B69785 /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF414C62A41929D00B69785 /* ApiRequest.swift */; };
+		0DF414CD2A41929E00B69785 /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF414C62A41929D00B69785 /* ApiRequest.swift */; };
+		0DF414CE2A41929E00B69785 /* ApiResponseStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF414C72A41929D00B69785 /* ApiResponseStatus.swift */; };
+		0DF414CF2A41929E00B69785 /* ApiResponseStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF414C72A41929D00B69785 /* ApiResponseStatus.swift */; };
+		0DF414D02A41929E00B69785 /* HTTPStatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF414C82A41929D00B69785 /* HTTPStatusCode.swift */; };
+		0DF414D12A41929E00B69785 /* HTTPStatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF414C82A41929D00B69785 /* HTTPStatusCode.swift */; };
+		0DF414D22A41929E00B69785 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF414C92A41929D00B69785 /* HTTPMethod.swift */; };
+		0DF414D32A41929E00B69785 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF414C92A41929D00B69785 /* HTTPMethod.swift */; };
+		0DF414D42A41929E00B69785 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF414CA2A41929E00B69785 /* RequestManager.swift */; };
+		0DF414D52A41929E00B69785 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF414CA2A41929E00B69785 /* RequestManager.swift */; };
+		0DF414EA2A419E7C00B69785 /* MusicAlbumsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF414DE2A419E0100B69785 /* MusicAlbumsListViewController.swift */; };
+		0DF414EB2A419E7C00B69785 /* MusicAlbumsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF414DF2A419E0100B69785 /* MusicAlbumsListViewModel.swift */; };
+		0DF414EC2A419E7C00B69785 /* MusicAlbumsListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF414E12A419E0100B69785 /* MusicAlbumsListModel.swift */; };
+		0DF414ED2A419E7C00B69785 /* MusicAlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF414E02A419E0100B69785 /* MusicAlbumTableViewCell.swift */; };
+		0DF414EE2A41A68300B69785 /* MainFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF414922A41821400B69785 /* MainFlowCoordinator.swift */; };
+		0DF414F02A41B77600B69785 /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DF414EF2A41B77600B69785 /* sample.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +67,7 @@
 		0D4E4FBD2A3FA19A004CA3D4 /* Dependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependencies.swift; sourceTree = "<group>"; };
 		0D4E4FC12A3FAC72004CA3D4 /* ApplicationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationError.swift; sourceTree = "<group>"; };
 		0DAA9CD12A3EEF2200AB7F5A /* String+Words.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Words.swift"; sourceTree = "<group>"; };
-		0DDDD7892A3DC85600CC0F12 /* TeladocDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeladocDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DDDD7892A3DC85600CC0F12 /* TeladocQ1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeladocQ1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DDDD78C2A3DC85600CC0F12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DDDD78E2A3DC85600CC0F12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0DDDD7952A3DC85800CC0F12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,12 +77,27 @@
 		0DDDD7A32A3DD47E00CC0F12 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
 		0DDDD7A72A3DECAB00CC0F12 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		0DDDD7AA2A3DF32B00CC0F12 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
-		0DDDD7AC2A3DF57000CC0F12 /* MainFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFlowCoordinator.swift; sourceTree = "<group>"; };
 		0DDDD7AF2A3DF63B00CC0F12 /* WordListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListViewController.swift; sourceTree = "<group>"; };
 		0DDDD7B12A3DF89500CC0F12 /* WordListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListModel.swift; sourceTree = "<group>"; };
 		0DDDD7B32A3E03F700CC0F12 /* DefaultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTableViewCell.swift; sourceTree = "<group>"; };
 		0DDDD7B52A3E0B6300CC0F12 /* SortingMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingMethod.swift; sourceTree = "<group>"; };
 		0DDDD7B72A3E20AD00CC0F12 /* Romeo-and-Juliet.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Romeo-and-Juliet.txt"; sourceTree = "<group>"; };
+		0DF414912A41821400B69785 /* MainFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFlowCoordinator.swift; sourceTree = "<group>"; };
+		0DF414922A41821400B69785 /* MainFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFlowCoordinator.swift; sourceTree = "<group>"; };
+		0DF414B82A4182E200B69785 /* TeladocQ2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeladocQ2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DF414BA2A4183EF00B69785 /* TeladocQ2_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TeladocQ2_Info.plist; sourceTree = "<group>"; };
+		0DF414C02A41913600B69785 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		0DF414C32A4191A000B69785 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		0DF414C62A41929D00B69785 /* ApiRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
+		0DF414C72A41929D00B69785 /* ApiResponseStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiResponseStatus.swift; sourceTree = "<group>"; };
+		0DF414C82A41929D00B69785 /* HTTPStatusCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPStatusCode.swift; sourceTree = "<group>"; };
+		0DF414C92A41929D00B69785 /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		0DF414CA2A41929E00B69785 /* RequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		0DF414DE2A419E0100B69785 /* MusicAlbumsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAlbumsListViewController.swift; sourceTree = "<group>"; };
+		0DF414DF2A419E0100B69785 /* MusicAlbumsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAlbumsListViewModel.swift; sourceTree = "<group>"; };
+		0DF414E02A419E0100B69785 /* MusicAlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAlbumTableViewCell.swift; sourceTree = "<group>"; };
+		0DF414E12A419E0100B69785 /* MusicAlbumsListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAlbumsListModel.swift; sourceTree = "<group>"; };
+		0DF414EF2A41B77600B69785 /* sample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +106,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D4E4FBC2A3FA176004CA3D4 /* DIContainer in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DF414AE2A4182E200B69785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DF414AF2A4182E200B69785 /* DIContainer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +139,10 @@
 		0D70356A2A40846B005C1B67 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0DDDD79A2A3DC85800CC0F12 /* Info.plist */,
+				0DF414BA2A4183EF00B69785 /* TeladocQ2_Info.plist */,
 				0DDDD7B72A3E20AD00CC0F12 /* Romeo-and-Juliet.txt */,
+				0DF414EF2A41B77600B69785 /* sample.json */,
 				0DDDD7952A3DC85800CC0F12 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -108,7 +168,8 @@
 		0DDDD78A2A3DC85600CC0F12 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0DDDD7892A3DC85600CC0F12 /* TeladocDemo.app */,
+				0DDDD7892A3DC85600CC0F12 /* TeladocQ1.app */,
+				0DF414B82A4182E200B69785 /* TeladocQ2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,7 +177,6 @@
 		0DDDD78B2A3DC85600CC0F12 /* TeladocDemo */ = {
 			isa = PBXGroup;
 			children = (
-				0DDDD79A2A3DC85800CC0F12 /* Info.plist */,
 				0D70356B2A40856A005C1B67 /* Application */,
 				0D70356A2A40846B005C1B67 /* Resources */,
 				0D7035692A408454005C1B67 /* Extensions */,
@@ -131,6 +191,7 @@
 		0DDDD7A02A3DD31900CC0F12 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				0DF414BF2A4190EB00B69785 /* Network */,
 				0DDDD7A12A3DD34A00CC0F12 /* DataProvider.swift */,
 				0DDDD7A32A3DD47E00CC0F12 /* StorageService.swift */,
 				0DDDD7B52A3E0B6300CC0F12 /* SortingMethod.swift */,
@@ -144,7 +205,8 @@
 				0D4E4FBD2A3FA19A004CA3D4 /* Dependencies.swift */,
 				0DDDD7A72A3DECAB00CC0F12 /* Coordinator.swift */,
 				0DDDD7AA2A3DF32B00CC0F12 /* AppCoordinator.swift */,
-				0DDDD7AC2A3DF57000CC0F12 /* MainFlowCoordinator.swift */,
+				0DF414902A41821400B69785 /* Q2 */,
+				0DF4148F2A41820400B69785 /* Q1 */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -153,20 +215,70 @@
 			isa = PBXGroup;
 			children = (
 				0DDDD7972A3DC85800CC0F12 /* LaunchScreen.storyboard */,
+				0DF414D92A419E0000B69785 /* MusicAlbumsList */,
+				0DF414D82A419DE700B69785 /* WordList */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		0DF4148F2A41820400B69785 /* Q1 */ = {
+			isa = PBXGroup;
+			children = (
+				0DF414912A41821400B69785 /* MainFlowCoordinator.swift */,
+			);
+			path = Q1;
+			sourceTree = "<group>";
+		};
+		0DF414902A41821400B69785 /* Q2 */ = {
+			isa = PBXGroup;
+			children = (
+				0DF414922A41821400B69785 /* MainFlowCoordinator.swift */,
+			);
+			path = Q2;
+			sourceTree = "<group>";
+		};
+		0DF414BF2A4190EB00B69785 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				0DF414C62A41929D00B69785 /* ApiRequest.swift */,
+				0DF414C72A41929D00B69785 /* ApiResponseStatus.swift */,
+				0DF414C92A41929D00B69785 /* HTTPMethod.swift */,
+				0DF414C82A41929D00B69785 /* HTTPStatusCode.swift */,
+				0DF414CA2A41929E00B69785 /* RequestManager.swift */,
+				0DF414C02A41913600B69785 /* NetworkService.swift */,
+				0DF414C32A4191A000B69785 /* API.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		0DF414D82A419DE700B69785 /* WordList */ = {
+			isa = PBXGroup;
+			children = (
 				0DDDD7AF2A3DF63B00CC0F12 /* WordListViewController.swift */,
 				0DDDD7B12A3DF89500CC0F12 /* WordListModel.swift */,
 				0D4E4FB82A3F9C6A004CA3D4 /* WordListViewModel.swift */,
 				0DDDD7B32A3E03F700CC0F12 /* DefaultTableViewCell.swift */,
 			);
-			path = UserInterface;
+			path = WordList;
+			sourceTree = "<group>";
+		};
+		0DF414D92A419E0000B69785 /* MusicAlbumsList */ = {
+			isa = PBXGroup;
+			children = (
+				0DF414E12A419E0100B69785 /* MusicAlbumsListModel.swift */,
+				0DF414E02A419E0100B69785 /* MusicAlbumTableViewCell.swift */,
+				0DF414DE2A419E0100B69785 /* MusicAlbumsListViewController.swift */,
+				0DF414DF2A419E0100B69785 /* MusicAlbumsListViewModel.swift */,
+			);
+			path = MusicAlbumsList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0DDDD7882A3DC85600CC0F12 /* TeladocDemo */ = {
+		0DDDD7882A3DC85600CC0F12 /* TeladocQ1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0DDDD79D2A3DC85800CC0F12 /* Build configuration list for PBXNativeTarget "TeladocDemo" */;
+			buildConfigurationList = 0DDDD79D2A3DC85800CC0F12 /* Build configuration list for PBXNativeTarget "TeladocQ1" */;
 			buildPhases = (
 				0DDDD7852A3DC85600CC0F12 /* Sources */,
 				0DDDD7862A3DC85600CC0F12 /* Frameworks */,
@@ -177,12 +289,33 @@
 			);
 			dependencies = (
 			);
-			name = TeladocDemo;
+			name = TeladocQ1;
 			packageProductDependencies = (
 				0D4E4FBB2A3FA176004CA3D4 /* DIContainer */,
 			);
 			productName = TeladocDemo;
-			productReference = 0DDDD7892A3DC85600CC0F12 /* TeladocDemo.app */;
+			productReference = 0DDDD7892A3DC85600CC0F12 /* TeladocQ1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0DF4149B2A4182E200B69785 /* TeladocQ2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DF414B52A4182E200B69785 /* Build configuration list for PBXNativeTarget "TeladocQ2" */;
+			buildPhases = (
+				0DF4149E2A4182E200B69785 /* Sources */,
+				0DF414AE2A4182E200B69785 /* Frameworks */,
+				0DF414B02A4182E200B69785 /* Resources */,
+				0DF414B42A4182E200B69785 /* Swiftlint */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TeladocQ2;
+			packageProductDependencies = (
+				0DF4149C2A4182E200B69785 /* DIContainer */,
+			);
+			productName = TeladocDemo;
+			productReference = 0DF414B82A4182E200B69785 /* TeladocQ2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -216,7 +349,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0DDDD7882A3DC85600CC0F12 /* TeladocDemo */,
+				0DDDD7882A3DC85600CC0F12 /* TeladocQ1 */,
+				0DF4149B2A4182E200B69785 /* TeladocQ2 */,
 			);
 		};
 /* End PBXProject section */
@@ -232,10 +366,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0DF414B02A4182E200B69785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DF414B12A4182E200B69785 /* LaunchScreen.storyboard in Resources */,
+				0DF414F02A41B77600B69785 /* sample.json in Resources */,
+				0DF414B22A4182E200B69785 /* Assets.xcassets in Resources */,
+				0DF414B32A4182E200B69785 /* Romeo-and-Juliet.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		0D4E4FBF2A3FA8A9004CA3D4 /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		0DF414B42A4182E200B69785 /* Swiftlint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -262,19 +425,55 @@
 			files = (
 				0DDDD7B22A3DF89500CC0F12 /* WordListModel.swift in Sources */,
 				0DDDD78D2A3DC85600CC0F12 /* AppDelegate.swift in Sources */,
+				0DF414D22A41929E00B69785 /* HTTPMethod.swift in Sources */,
 				0D4E4FBE2A3FA19A004CA3D4 /* Dependencies.swift in Sources */,
 				0DAA9CD22A3EEF2300AB7F5A /* String+Words.swift in Sources */,
 				0D4E4FB92A3F9C6A004CA3D4 /* WordListViewModel.swift in Sources */,
+				0DF414972A41824800B69785 /* MainFlowCoordinator.swift in Sources */,
+				0DF414D42A41929E00B69785 /* RequestManager.swift in Sources */,
 				0DDDD7B02A3DF63B00CC0F12 /* WordListViewController.swift in Sources */,
 				0DDDD7A82A3DECAB00CC0F12 /* Coordinator.swift in Sources */,
 				0DDDD7B62A3E0B6300CC0F12 /* SortingMethod.swift in Sources */,
 				0DDDD7A22A3DD34A00CC0F12 /* DataProvider.swift in Sources */,
+				0DF414D02A41929E00B69785 /* HTTPStatusCode.swift in Sources */,
+				0DF414C12A41913600B69785 /* NetworkService.swift in Sources */,
 				0DDDD7B42A3E03F700CC0F12 /* DefaultTableViewCell.swift in Sources */,
 				0DDDD78F2A3DC85600CC0F12 /* SceneDelegate.swift in Sources */,
-				0DDDD7AD2A3DF57000CC0F12 /* MainFlowCoordinator.swift in Sources */,
 				0DDDD7A42A3DD47E00CC0F12 /* StorageService.swift in Sources */,
+				0DF414CC2A41929E00B69785 /* ApiRequest.swift in Sources */,
 				0DDDD7AB2A3DF32B00CC0F12 /* AppCoordinator.swift in Sources */,
+				0DF414CE2A41929E00B69785 /* ApiResponseStatus.swift in Sources */,
+				0DF414C42A4191A000B69785 /* API.swift in Sources */,
 				0D4E4FC22A3FAC72004CA3D4 /* ApplicationError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DF4149E2A4182E200B69785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DF414A02A4182E200B69785 /* AppDelegate.swift in Sources */,
+				0DF414D32A41929E00B69785 /* HTTPMethod.swift in Sources */,
+				0DF414ED2A419E7C00B69785 /* MusicAlbumTableViewCell.swift in Sources */,
+				0DF414A12A4182E200B69785 /* Dependencies.swift in Sources */,
+				0DF414A22A4182E200B69785 /* String+Words.swift in Sources */,
+				0DF414EE2A41A68300B69785 /* MainFlowCoordinator.swift in Sources */,
+				0DF414D52A41929E00B69785 /* RequestManager.swift in Sources */,
+				0DF414A62A4182E200B69785 /* Coordinator.swift in Sources */,
+				0DF414A72A4182E200B69785 /* SortingMethod.swift in Sources */,
+				0DF414EA2A419E7C00B69785 /* MusicAlbumsListViewController.swift in Sources */,
+				0DF414A82A4182E200B69785 /* DataProvider.swift in Sources */,
+				0DF414D12A41929E00B69785 /* HTTPStatusCode.swift in Sources */,
+				0DF414EB2A419E7C00B69785 /* MusicAlbumsListViewModel.swift in Sources */,
+				0DF414EC2A419E7C00B69785 /* MusicAlbumsListModel.swift in Sources */,
+				0DF414C22A41913600B69785 /* NetworkService.swift in Sources */,
+				0DF414AA2A4182E200B69785 /* SceneDelegate.swift in Sources */,
+				0DF414AB2A4182E200B69785 /* StorageService.swift in Sources */,
+				0DF414CD2A41929E00B69785 /* ApiRequest.swift in Sources */,
+				0DF414AC2A4182E200B69785 /* AppCoordinator.swift in Sources */,
+				0DF414CF2A41929E00B69785 /* ApiResponseStatus.swift in Sources */,
+				0DF414C52A4191A000B69785 /* API.swift in Sources */,
+				0DF414AD2A4182E200B69785 /* ApplicationError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,7 +614,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L2HG8KUPMF;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TeladocDemo/Info.plist;
+				INFOPLIST_FILE = TeladocDemo/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -443,7 +642,63 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L2HG8KUPMF;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TeladocDemo/Info.plist;
+				INFOPLIST_FILE = TeladocDemo/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = one.zhuk.teladocdemo.TeladocDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0DF414B62A4182E200B69785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L2HG8KUPMF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TeladocDemo/Resources/TeladocQ2_Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = one.zhuk.teladocdemo.TeladocDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0DF414B72A4182E200B69785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L2HG8KUPMF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TeladocDemo/Resources/TeladocQ2_Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -474,11 +729,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0DDDD79D2A3DC85800CC0F12 /* Build configuration list for PBXNativeTarget "TeladocDemo" */ = {
+		0DDDD79D2A3DC85800CC0F12 /* Build configuration list for PBXNativeTarget "TeladocQ1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0DDDD79E2A3DC85800CC0F12 /* Debug */,
 				0DDDD79F2A3DC85800CC0F12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DF414B52A4182E200B69785 /* Build configuration list for PBXNativeTarget "TeladocQ2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DF414B62A4182E200B69785 /* Debug */,
+				0DF414B72A4182E200B69785 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -494,12 +758,25 @@
 				minimumVersion = 0.2.0;
 			};
 		};
+		0DF4149D2A4182E200B69785 /* XCRemoteSwiftPackageReference "DIContainer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Tavernari/DIContainer";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		0D4E4FBB2A3FA176004CA3D4 /* DIContainer */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 0D4E4FBA2A3FA176004CA3D4 /* XCRemoteSwiftPackageReference "DIContainer" */;
+			productName = DIContainer;
+		};
+		0DF4149C2A4182E200B69785 /* DIContainer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0DF4149D2A4182E200B69785 /* XCRemoteSwiftPackageReference "DIContainer" */;
 			productName = DIContainer;
 		};
 /* End XCSwiftPackageProductDependency section */
