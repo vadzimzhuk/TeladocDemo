@@ -13,7 +13,7 @@ Included with this assignment is the file Romeo-and-Juliet.txt. It is a classic 
 and forbidden love! Write an application that will read this file and generate a list of all word
 occurrences. Label each word with the frequency with which it is used. The application should
 display the results in a TableView / RecyclerView ordered from most to least frequently used.
-Extra credit: Build a control that allows the table view to sort itself instead alphabetically or
+Extra credit: Build a control that allows the table view to sort itself instead of alphabetically or
 by character length of the word.
 ### Question 2 – Networking and Asynchronous Operations
 #### Twist and Shout!
@@ -28,3 +28,12 @@ artist from the API and display the results.
 https://itunes.apple.com/search?term=thebeatles&amp;media=music&amp;entity=album&amp;attribute=artistTerm
 #### API Documentation:
 https://performance-partners.apple.com/search-api
+
+## Implementation
+Implemented both tasks, placed in the same project, but separated by targets Q1 and Q2
+### Architecture
+MVVM+Coordinator
+### Dependencies
+DIContainer
+### Network layer
+Standart Foundation tools
