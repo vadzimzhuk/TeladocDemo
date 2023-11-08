@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "dicontainer",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Tavernari/DIContainer",
+      "state" : {
+        "revision" : "e55c3b34c9925ee208cc38580213c841cf8f5ca3",
+        "version" : "0.2.1"
+      }
+    }
+  ],
+  "version" : 2
+}
