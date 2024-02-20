@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  TeladocDemo
 //
-//  Created by Vadim Zhuk on 17.06.23.
+//  Created by Vadim Zhuk on 18.06.23.
 //
 
 import UIKit
@@ -13,7 +13,4 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
 }
-
